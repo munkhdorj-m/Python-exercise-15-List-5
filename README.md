@@ -1,4 +1,4 @@
-# Python List 4
+# Python List 5
 
 Python List PDF:
 https://drive.google.com/file/d/1lKmQwkQc8rGIuH9OIQB-yM6lFg-lW9Ch/view?usp=sharing
@@ -10,21 +10,21 @@ https://drive.google.com/file/d/1lKmQwkQc8rGIuH9OIQB-yM6lFg-lW9Ch/view?usp=shari
 
 **Problem:**
 
-Find the sum of the digits in the numbers in a given list.
+Find index number of highest number.
 
 **Example:**
 
-	Input: [12, 23]
-	Output: 8
+	Input: [3, 8, 2, 5, 10, 7]
+	Output: 4 
  
-	Input: [12, 23, 43]
-	Output: 15
- 
-	Input: [113, 234]
-	Output: 14
- 
-	Input: [1002, 2005]
-	Output: 10
+	Input: [12, 23, 43, 11, 9]
+	Output: 2 
+
+  	Input: [3, 3, 3]
+   	Output: 0
+    
+	Input: [113, 234, 145, 299, 155]
+	Output: 3
 
 ---
 
@@ -32,21 +32,21 @@ Find the sum of the digits in the numbers in a given list.
 
 **Problem:**
 
-Find the largest negative and smallest positive numbers (or 0 if none).
+Given a target element, find all indices where this element occurs in the list.
 
 **Example**
 
-	Input: [-12, -6, 300, -40, 2, 2, 3, 57, -50, -22, 12, 40, 9, 11, 18]
-	Output: [-6, 2]
+	Input: [3, 8, 3, 5, 3, 7], target = 3
+	Output: [0, 2, 4]
  
-	Input: [-1, -2, -3, -4]
-	Output: [-1, 0]
+	Input: [12, 23, 43, 11, 23], target = 23
+	Output: [1, 4]
  
-	Input: [1, 2, 3, 4]
-	Output: [0, 1]
- 
-	Input: []
-	Output: [0, 0]	
+	Input: [113, 234, 145, 113, 155], target = 113
+	Output: [0, 3]
+
+ 	Input: [3, 8, 5, 7], target = 4
+	Output: [] 
 
 ---
 
@@ -54,16 +54,22 @@ Find the largest negative and smallest positive numbers (or 0 if none).
 
 **Problem:**
 
-Find numbers that are greater than 10 and have odd first and last digits.
+Swap elements at even index with the element at the next odd index. If list length is odd, last element remains unchanged.
 
 **Example**
 
-	Input: [1, 3, 79, 10, 4, 1, 39, 62]
-	Output: [79, 39]
+	Input: [10, 20, 30, 40, 50, 60]
+	Output: [20, 10, 40, 30, 60, 50]
  
-	Input: [11, 31, 77, 93, 48, 1, 57]
-	Output: [11, 31, 77, 93, 57]
+	Input: [1, 2, 3, 4, 5, 6, 7, 8]
+	Output: [2, 1, 4, 3, 6, 5, 8, 7]
+ 
+	Input: [1, 2, 3, 4, 5]
+	Output: [2, 1, 4, 3, 5] 
 
+ 	Input: [100]
+	Output: [100]
+ 
 ---
 
 
